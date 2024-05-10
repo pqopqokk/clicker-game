@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<!-- Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+
+</head>
+
+<body>
+
+<button onclick="x *= 10; cl();">admin</button>
+
+<!-- Text -->
+<h3 id="score">Score is 0 points</h3>
+<h4 id="ppc">You get 1 point per click</h4>
+
+<!-- Click button -->
+<button id="click" onclick="cl()">Click</button>
+
+<!-- Between click and shop -->
+<br><br>
+<button onclick="left()" id="arrowl"><</button>
+<button id="pd">page 1</button>
+<button onclick="right()" id="arrowr">></button>
+<br><br>
+
+<!-- Shop buttons -->
+<div id="shopb">
+<button id="shop1" onclick="by(1, 50)">+1 point per click <b>(cost: 50 points)</b></button><br>
+<button id="shop2" onclick="by(10, 500)">+10 points per click <b>(cost: 500 points)</b></button><br>
+<button id="shop3" onclick="by(100, 5000)">+100 points per click <b>(cost: 5k points)</b></button><br>
+<button id="shop4" onclick="by(1000, 50000)">+1k points per click <b>(cost: 50,000 points)</b></button><br>
+<button id="shop5" onclick="by(10000, 500000)">+10k points per click <b>(cost: 500k points)</b></button>
+</div>
+
+<!-- Javascript code -->
+<script src="code.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
