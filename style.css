@@ -1,0 +1,76 @@
+body {
+background-color:rgb(52, 201, 106);
+} #score, #ppc {
+font-family: arvo;
+color: white;
+opacity: 0.9;
+} #shop {
+font-family: helvetica;
+color: dimgray;
+} h3 {
+line-height: .2;
+} 
+#click {
+background-color: green;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 25px;
+border-radius: 12px;
+border-width: 3px;
+border-color: black;
+border-style: solid;
+cursor: pointer;
+transition-duration: 0.4s;
+} #shop1,#shop2,#shop3,#shop4,#shop5 {
+background-color: green;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 14px;
+border-radius: 12px;
+cursor: pointer;
+transition-duration: 0.4s;
+} #arrowl, #arrowr, #pd {
+background-color: green;
+color: white;
+padding: 1px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+border-radius: 0px;
+border-width: 3px;
+border-color: black;
+border-style: solid;
+cursor: pointer;
+font-weight: 900;
+float: left;
+transition-duration: 0.4s;
+} #arrowl {
+border-right: 0px none black;
+border-radius: 30% 0% 0% 30%;
+} #arrowr {
+border-left: 0px none black;
+border-radius: 0% 30% 30% 0%;
+} #pd {
+border-right: 0px none black;
+border-left: 0px none black;
+cursor: inherit;
+} #click:hover, #shop1:hover, #shop2:hover, #shop3:hover,#shop4:hover,#shop5:hover, #arrowl:hover, #arrowr:hover {
+background-color: #009900;
+} #shopb {
+background-color:green;
+padding: 5x 10px;
+text-align: center;
+display: inline-block;
+border-radius: 12px;
+border-width: 3px;
+border-color: black;
+border-style: solid;
+}
